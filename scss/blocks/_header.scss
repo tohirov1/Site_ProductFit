@@ -1,0 +1,57 @@
+
+.site-header{
+    background: #FCFDFE;
+    padding: 17px 0;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo__title{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.logo__list{
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    margin-left: 20px;
+}
+.logo__item + .logo__item{
+    margin-left: 53px;
+}
+.logo__tel{
+    margin-right: 67px;
+}
+.logo__button{
+    width: 186px;
+    padding: 23px 0;
+    background: #1E959B;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 866px) {
+    .logo__list{
+        display: none;
+    }
+    .header__logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logo__list > .logo__item{
+        display: block;
+    }
+}
+@media only screen and (max-width: 695px) {
+    .logo__title{
+        display: none;
+    }
+}

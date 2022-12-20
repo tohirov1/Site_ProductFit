@@ -1,0 +1,42 @@
+.about-section{   
+    background:#1E959B;
+    padding: 18px 0 17px 0;
+}
+.about__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about__item + .about__item{
+    margin-left: 20px;
+}
+@media only screen and (max-width: 866px) {
+    .item-img1{
+        display: none;
+    }
+    .about__item > img{
+        width: 120px;
+        height: 45px;
+    }
+    
+}
+@media only screen and (max-width: 695px) {
+    .item-img{
+        display: none;
+    }
+    
+    .about__item > img{
+        width: 250px;
+        height: 60px;
+        
+    }
+    .item-img1{
+        display: none;
+    }
+    .item-img2{
+        display: none;
+    }
+    .hero__button > button{
+        margin-bottom: 50px;
+    }
+}
